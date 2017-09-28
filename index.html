@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Game of Thrones Trivia</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+</head>
+<body background="assets/images/background.jpg">
+	
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+		<div id = start_container>
+			<h1 class = "logo">Game of Thrones Trivia</h1>
+			<button id = start_button>Start</button>
+		</div>
+
+		<div id = mid_game_container>
+			<h1 class = "logo">Game of Thrones Trivia</h1>
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+
+			<h1>1. Which of these is not the name of a Stark direwolf??</h1>
+				<input type="radio" name="q1" value="Nymeria">Nymeria 
+				<input type="radio" name="q1" value="Ghost">Ghost
+				<input type="radio" name="q1" value="Summer">Summer
+				<input type="radio" name="q1" value="Vhagar">Vhagar
+				
+
+			<h1>2. What are the offical words of House Lannister?</h1>
+				<input type="radio" name="q2" value="A Lannister always pays their debts">A Lannister always pays their debts
+				<input type="radio" name="q2" value="Our word is as good as gold">Our word is as good as gold
+				<input type="radio" name="q2" value="We shit gold">We shit gold
+				<input type="radio" name="q2" value="Hear me roar">Hear me roar
+
+
+
+			<h1>3. What is the name of Daenerys'green dragon?</h1>
+				<input type="radio" name="q3" value="Rheagal">Rheagal
+				<input type="radio" name="q3" value="Meraxes">Meraxes
+				<input type="radio" name="q3" value="Drogon">Drogon
+				<input type="radio" name="q3" value="Balerion">Balerion
+
+
+			<h1>4. What Gods do the Starks worship??</h1>
+				<input type="radio" name="q4" value="The Old Gods">The Old Gods
+				<input type="radio" name="q4" value="The Seven">The Seven 
+				<input type="radio" name="q4" value="The God of Death">The God of Death
+				<input type="radio" name="q4" value="The Red God">The Red God
+			
+
+
+			<h1>5. Who orchestrated the Red Wedding?</h1>
+				<input type="radio" name="q5" value="Roose Bolton">Roose Bolton
+				<input type="radio" name="q5" value="Tywin Lannister">Tywin Lannister
+				<input type="radio" name="q5" value="Cersei Lannister">Cersei Lannister
+				<input type="radio" name="q5" value="Joffrey Baratheon">Joffrey Baratheon
+
+				<br>
+
+
+			<button id = done_button>Done!</button>
+
+		</div>
+
+
+
+
+		<!-- End of the game -->
+		<div id = end_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Game of Thrones Trivia</h1>
+
+			<h1 id = "done">All Done!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+
+
+	</body>
+</html>
